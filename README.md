@@ -16,3 +16,8 @@ to improve prediction consistency, especially for video inference.
 - The application now uses the updated YOLO12n model for both image and video behavior classification.
 
 **Technology Stack:** Python, YOLO12n, Ultralytics, OpenCV, Streamlit
+#### Limitations
+
+- The reported evaluation metrics are based on the dataset used for training and validation.
+- Performance on real-world images and videos may vary due to differences in lighting conditions, camera angles, occlusions, image quality, and other domain shifts.
+- Further improvements can be achieved by training on a larger and more diverse dataset, applying data augmentation, and fine-tuning the model on real-world driving scenarios.
